@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cholera - number of reported cases in 2011</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+	
+	<!-- Google Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	
+	<!-- Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+	<!-- Open source JavaScript libraries -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCwD9bgT5mBv0y-9GMlKjiDsLwVR3Wkf_g&sensor=false"></script>
+	
+	<!-- Main JavaScript file -->
+	<script type="text/javascript" src="js/script.js"></script>
+		
+  </head>
+  
+  <body>
+	<div id="map-canvas"></div>
+  
+	<div id="country-statistics-wrapper">
+		<div id="country-statistics">
+			<span class="overlay-title">Cholera - number of reported cases in 2011</span></br>
+			<div class="text-align-right"><a class="overlay-link" href="http://apps.who.int/gho/data/node.main.175?lang=en">Sourced from the WHO</a></div>
+			<table>
+				<tbody>
+					<tr>
+						<td style="font-weight:bold;">Country:</td>
+						<td id="country-value"></td>
+					</tr>
+					<tr>
+						<td style="font-weight:bold;">Number of Reported Cases:</td>
+						<td id="cases-value"></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	
+  </body>
+
+</html>

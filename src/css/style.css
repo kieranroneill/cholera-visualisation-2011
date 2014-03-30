@@ -1,0 +1,59 @@
+*
+{
+	font-family: 'Roboto', sans-serif;
+}
+
+html, body, #map-canvas 
+{
+	height: 100%;
+	margin: 0px;
+	padding: 0px
+}
+
+.text-align-right
+{
+	text-align: right;
+}
+
+#country-statistics-wrapper
+{
+	position: absolute;
+	top: 10px;
+	left: 50%;
+}
+
+#country-statistics 
+{
+	position: relative;
+	left: -50%;
+    background: white;
+    padding: 10px;
+	text-align: center;
+	-webkit-box-shadow: 10px 10px 43px 9px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 43px 9px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 43px 9px rgba(0,0,0,0.75);
+}
+
+.overlay-title
+{
+	font-size: 1.5em;
+	font-weight: bold;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.overlay-link
+{
+	text-decoration: none;
+	font-size: 0.85em;
+}
+
+.overlay-link:hover
+{
+	text-decoration: underline;
+}
+
+#country-statistics  table
+{
+	text-align: left;
+}
